@@ -8,27 +8,39 @@
     font-family: 'Jost', sans-serif;
 }
 
+body {
+    background-color: #f6f8e0;
+}
+
 h1 {
-    color: #EFF3C6;
+    color: #f6f8e0;
+}
+
+h2 {
+    color: #0779E4;
+}
+
+h1, h2, #menu-bar {
+    letter-spacing: 2px;
 }
 
 /* heading section */
 #home {
     background: url('/assets/images/kells_bay1.jpg') no-repeat left center;
     background-size: cover;
-    height: 400px;
+    height: 500px;
 }
 
 #page-title {
     margin-left: 30px;
     font-size: 300%;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
     display: inline-block;
 }
 
 #menu-bar {
     font-size: 130%;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
     float: right;
 }
 
@@ -39,7 +51,7 @@ h1 {
 }
 
 #menu-bar a {
-    color: #EFF3C6;
+    color: #f6f8e0;
     font-weight: bold;
 }
 
@@ -49,4 +61,16 @@ h1 {
 
 #page-title, #menu-bar {
     line-height: 70px;
+}
+
+/* Locations sections */
+#locations {
+    height: 500px;
+}
+
+#locations-heading {
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 200%;
 }
