@@ -1,15 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;400;600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     border: none;
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
 }
 
-header {
-    height: 1000px;
+h1 {
+    color: #EFF3C6;
 }
 
+/* heading section */
 #home {
     background: url('/assets/images/kells_bay1.jpg') no-repeat left center;
     background-size: cover;
     height: 400px;
+}
+
+#page-title {
+    margin-left: 30px;
+    font-size: 300%;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+
+#menu-bar {
+    font-size: 130%;
+    letter-spacing: 2px;
+    float: right;
+}
+
+#menu-bar li {
+    float: left;
+    list-style: none;
+    margin-right: 30px;
+}
+
+#menu-bar a {
+    color: #EFF3C6;
+    font-weight: bold;
+}
+
+#menu-bar a:hover {
+    color: #0779E4;
+}
+
+#page-title, #menu-bar {
+    line-height: 70px;
 }
