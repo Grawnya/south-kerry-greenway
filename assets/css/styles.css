@@ -5,10 +5,11 @@
 }
 
 header {
-    height: 500px;
-    width: 100%;
+    height: 1000px;
 }
 
 #home {
-    background-image: url('assets/images/greenway1.jpg');
+    background: url('/assets/images/kells_bay1.jpg') no-repeat left center;
+    background-size: cover;
+    height: 400px;
 }
