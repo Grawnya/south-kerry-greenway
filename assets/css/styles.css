@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+header {
+    height: 500px;
+    width: 100%;
+}
+
+#home {
+    background-image: url('assets/images/greenway1.jpg');
+}
