@@ -20,6 +20,10 @@ h2 {
     color: #0779E4;
 }
 
+h2:hover {
+    border-bottom: 3px solid currentColor;
+}
+
 h1, h2, #menu-bar {
     letter-spacing: 2px;
 }
@@ -73,4 +77,6 @@ h1, h2, #menu-bar {
     margin-left: 30px;
     margin-top: 10px;
     font-size: 200%;
+    display: inline-block;
+    clear: both;
 }
