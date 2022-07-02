@@ -45,7 +45,7 @@ h1, h2, #menu-bar {
 }
 
 #section-heading {
-    text-align: center; /* left for tablet or greater*/
+    text-align: center; /* left for tablet +*/
     /* margin-left: 30px; for tablet +*/
     margin: 10px auto;
     font-size: 180%;
@@ -108,3 +108,8 @@ section {
 #about p {
     margin: 10%; /* but change to 5% for tablet or larger */
 }
+
+/* Route section */
+
+
+/* Locations section */
