@@ -38,8 +38,12 @@ h1, h2, #menu-bar {
     letter-spacing: 2px;
 }
 
-.center {
+.center-text {
     text-align: center;
+}
+
+.center-element {
+    margin: 0 auto;
 }
 
 /* heading section */
