@@ -38,6 +38,16 @@ h1, h2, #menu-bar {
     letter-spacing: 2px;
 }
 
+#section-heading {
+    text-align: center; /* left for tablet or greater*/
+    /* margin-left: 30px; for tablet +*/
+    margin: 10px auto;
+    font-size: 180%;
+    display: inline-block;
+    width: 100%;
+    clear: both;
+}
+
 .center-text {
     text-align: center;
 }
@@ -84,17 +94,4 @@ h1, h2, #menu-bar {
     line-height: 60px;
 }
 
-/* Locations sections */
-#locations {
-    height: 500px;
-}
-
-#section-heading {
-    text-align: center;
-    /* margin-left: 30px; */
-    margin-top: 10px;
-    font-size: 180%;
-    width: 100%;
-    /* display: inline-block; */
-    clear: both;
-}
+/* About section */
