@@ -31,7 +31,7 @@ h2 {
 }
 
 h2:hover {
-    border-bottom: 3px solid currentColor;
+    text-decoration: solid underline;
 }
 
 h1, h2, #menu-bar {
@@ -43,8 +43,7 @@ h1, h2, #menu-bar {
     /* margin-left: 30px; for tablet +*/
     margin: 10px auto;
     font-size: 180%;
-    display: inline-block;
-    width: 100%;
+    display: block;
     clear: both;
 }
 
