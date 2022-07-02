@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;400;600&display=swap');
 
+:root {
+    --dark-blue: #0779E4;
+    --light-yellow: #f6f8e0;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,15 +14,15 @@
 }
 
 body {
-    background-color: #f6f8e0;
+    background-color: var(--light-yellow);
 }
 
 h1 {
-    color: #f6f8e0;
+    color: var(--light-yellow);
 }
 
 h2 {
-    color: #0779E4;
+    color: var(--dark-blue);
 }
 
 h2:hover {
@@ -38,13 +43,11 @@ h1, h2, #menu-bar {
 #page-title {
     margin-left: 30px;
     font-size: 300%;
-    /* letter-spacing: 2px; */
     display: inline-block;
 }
 
 #menu-bar {
     font-size: 130%;
-    /* letter-spacing: 2px; */
     float: right;
 }
 
@@ -55,12 +58,13 @@ h1, h2, #menu-bar {
 }
 
 #menu-bar a {
-    color: #f6f8e0;
+    color: var(--light-yellow);
     font-weight: bold;
 }
 
 #menu-bar a:hover {
-    color: #0779E4;
+    color: var(--dark-blue);
+    border-bottom: 3px solid currentColor;
 }
 
 #page-title, #menu-bar {
