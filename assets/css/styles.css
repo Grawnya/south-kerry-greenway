@@ -44,6 +44,10 @@ h1, h2, #menu-bar {
     letter-spacing: 2px;
 }
 
+p {
+    text-align: justify;
+}
+
 #section-heading {
     text-align: center; /* left for tablet +*/
     /* margin-left: 30px; for tablet +*/
@@ -113,3 +117,12 @@ section {
 
 
 /* Locations section */
+.location-image {
+    width: 300px;
+    height: 200px;
+    display: block;
+}
+
+#location p {
+    margin: 10%; /* but change to 5% for tablet or larger */
+}
