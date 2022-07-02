@@ -65,8 +65,9 @@ h1, h2, #menu-bar {
 #menu-bar li {
     list-style: none;
     display: inline-block;
+    width: 45%; /* Make 30 for tablet and 100% for larger than tablet */
     margin: 0 auto;
-    width: 16%;
+    text-align: center;
 }
 
 #menu-bar a {
