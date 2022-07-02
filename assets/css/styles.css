@@ -26,8 +26,14 @@ h1 {
     color: var(--light-yellow);
 }
 
-h2 {
+.yellow-section {
     color: var(--dark-blue);
+    background-color: var(--light-yellow);
+}
+
+.blue-section {
+    color: var(--light-yellow);
+    background-color: var(--dark-blue);
 }
 
 h2:hover {
