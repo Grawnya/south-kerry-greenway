@@ -61,6 +61,11 @@ h1, h2, #menu-bar {
     margin: 0 auto;
 }
 
+section {
+    min-height: 400px;
+    overflow: hidden;
+}
+
 /* heading section */
 #home {
     background: url('/assets/images/kells_bay1.jpg') no-repeat left center;
@@ -100,3 +105,6 @@ h1, h2, #menu-bar {
 }
 
 /* About section */
+#about p {
+    margin: 10%; /* but change to 5% for tablet or larger */
+}
