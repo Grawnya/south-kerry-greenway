@@ -124,5 +124,5 @@ section {
 }
 
 #location p {
-    margin: 10%; /* but change to 5% for tablet or larger */
+    margin: 5% 10%; /* but change to 5% for tablet or larger */
 }
