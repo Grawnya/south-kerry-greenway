@@ -127,3 +127,15 @@ section {
 #location p {
     margin: 1% 10% 5%;
 }
+
+/* Events Section */
+
+
+/* Contact Section */
+
+
+/* footer section */
+
+footer i {
+    color: var(--light-yellow);
+}
