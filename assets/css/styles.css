@@ -36,7 +36,7 @@ h1 {
     background-color: var(--dark-blue);
 }
 
-h2:hover {
+h2:hover, h3 {
     text-decoration: solid underline;
 }
 
@@ -117,12 +117,13 @@ section {
 
 
 /* Locations section */
-.location-image {
+.location-image { /* make location-image padding and p tag padding inside the location section smaller for larger screens */
     width: 300px;
     height: 200px;
     display: block;
+    padding-bottom: 5%;
 }
 
 #location p {
-    margin: 5% 10%; /* but change to 5% for tablet or larger */
+    margin: 1% 10% 5%;
 }
