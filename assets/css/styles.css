@@ -36,7 +36,7 @@ h1 {
     background-color: var(--dark-blue);
 }
 
-h2:hover, h3 {
+#menu-bar a:hover, h2:hover, h3 {
     text-decoration: solid underline;
 }
 
@@ -97,11 +97,6 @@ section {
 #menu-bar a {
     color: var(--light-yellow);
     font-weight: bold;
-}
-
-#menu-bar a:hover {
-    color: var(--dark-blue);
-    border-bottom: 3px solid currentColor;
 }
 
 #page-title, #menu-bar {
