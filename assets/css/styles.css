@@ -105,7 +105,7 @@ section {
 
 /* About section */
 #about p {
-    margin: 10%; /* but change to 5% for tablet or larger */
+    margin: 15%;
 }
 
 /* Route section */
@@ -120,7 +120,7 @@ section {
 }
 
 #location p {
-    margin: 1% 10% 5%;
+    margin: 1% 15% 5%;
 }
 
 /* Events Section */
