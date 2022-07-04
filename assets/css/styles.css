@@ -3,6 +3,8 @@
 :root {
     --dark-blue: #0779E4;
     --light-yellow: #f6f8e0;
+    --light-aqua: #56d8d8;
+    --aquamarine: #049f9d;
 }
 
 * {
@@ -124,7 +126,17 @@ section {
 }
 
 /* Events Section */
-
+#events div {
+    color: var(--light-yellow);
+    background-color: var(--aquamarine);
+    clear: both;
+    height: 200px;
+    padding: 25px 0;
+    text-align: center;
+    border: 1rem solid var(--light-aqua);
+    width: 100%;
+    box-sizing: border-box;
+}
 
 /* Contact Section */
 
