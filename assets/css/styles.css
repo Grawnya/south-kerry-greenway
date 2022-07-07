@@ -151,7 +151,6 @@ input[type=text],
 input[type=email],
 textarea {
     width: 90%;
-	/* margin-left: 5%; */
 }
 
 input[type=text],
