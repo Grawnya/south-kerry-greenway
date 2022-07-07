@@ -152,6 +152,9 @@ input[type=text],
 input[type=email],
 textarea {
     width: 90%;
+    border: 2px solid var(--dark-blue);
+    border-radius: 10px;
+    padding-left: 10px;
 }
 
 input[type=text],
@@ -161,6 +164,7 @@ input[type=email] {
 
 textarea {
     height: 300px;
+    padding-top: 10px;
 }
 
 .submit-button {
