@@ -222,7 +222,7 @@ footer {
 
 .section-links a {
     color: var(--light-yellow);
-    size: 130%;
+    font-size: 130%;
     font-weight: bold;
     padding: 5px 0;
 }
