@@ -145,6 +145,7 @@ section {
 
 fieldset input, fieldset label, fieldset textarea {
     margin-left: 5%;
+    font-size: large;
 }
 
 input[type=text],
