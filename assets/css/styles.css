@@ -208,5 +208,6 @@ footer i {
 
 .socials i {
     font-size: 250%;
-    margin: 5%;
+    width: 23%;
+    text-align: center;
 }
