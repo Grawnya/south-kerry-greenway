@@ -148,6 +148,10 @@ fieldset input, fieldset label, fieldset textarea {
     font-size: large;
 }
 
+fieldset label {
+    
+}
+
 input[type=text],
 input[type=email],
 textarea {
