@@ -198,8 +198,9 @@ textarea {
 
 /* footer section */
 
-footer i {
-    color: var(--light-yellow);
+footer {
+    overflow: hidden;
+    padding-bottom: 20px;
 }
 
 .socials li {
@@ -207,6 +208,7 @@ footer i {
 }
 
 .socials i {
+    color: var(--light-yellow);
     font-size: 250%;
     width: 23.5%;
     text-align: center;
