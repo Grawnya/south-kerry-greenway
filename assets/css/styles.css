@@ -143,15 +143,15 @@ section {
     margin: 1% 15% 3%;
 }
 
-fieldset {
-    margin: 20px auto;
+fieldset input, fieldset label, fieldset textarea {
+    margin-left: 5%;
 }
 
 input[type=text],
 input[type=email],
 textarea {
     width: 90%;
-	margin-left: 5%;
+	/* margin-left: 5%; */
 }
 
 input[type=text],
