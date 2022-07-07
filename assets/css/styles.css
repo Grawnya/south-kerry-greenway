@@ -148,13 +148,20 @@ fieldset {
 }
 
 input[type=text],
-input[type=email] {
-    height: 30px;
+input[type=email],
+textarea {
     width: 90%;
 	margin-left: 5%;
 }
 
+input[type=text],
+input[type=email] {
+    height: 30px;   
+}
 
+textarea {
+
+}
 
 /* footer section */
 
