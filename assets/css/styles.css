@@ -74,7 +74,7 @@ section {
 
 /* heading section */
 #home {
-    background: url('/assets/images/kells_bay1.jpg') no-repeat left center;
+    background: url('https://grawnya.github.io/south-kerry-greenway/assets/images/kells_bay1.jpg') no-repeat left center;
     background-size: cover;
     height: 400px;
 }
