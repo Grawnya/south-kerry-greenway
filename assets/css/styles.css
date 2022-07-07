@@ -144,7 +144,7 @@ section {
 }
 
 fieldset input, fieldset label, fieldset textarea {
-    margin-left: 5%;
+    margin-left: 15%;
     font-size: large;
 }
 
@@ -158,7 +158,7 @@ fieldset label {
 input[type=text],
 input[type=email],
 textarea {
-    width: 90%;
+    width: 70%;
     border: 2px solid var(--dark-blue);
     border-radius: 10px;
     padding-left: 10px;
