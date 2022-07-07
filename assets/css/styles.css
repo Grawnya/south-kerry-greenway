@@ -208,6 +208,19 @@ footer i {
 
 .socials i {
     font-size: 250%;
-    width: 23%;
+    width: 23.5%;
     text-align: center;
+    padding: 20px 0;
+}
+
+.section-links li {
+    text-align: center;
+    list-style: none;
+}
+
+.section-links a {
+    color: var(--light-yellow);
+    size: 130%;
+    font-weight: bold;
+    padding: 5px 0;
 }
