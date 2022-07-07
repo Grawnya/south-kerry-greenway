@@ -143,17 +143,18 @@ section {
     margin: 1% 15% 3%;
 }
 
-/* fieldset {
+fieldset {
     margin-top: 20px;
-} */
+}
 
 input[type=text],
 input[type=email] {
     height: 30px;
     width: 90%;
-    padding-left: 10px;
-	margin: 0 auto;
+	margin-left: 5%;
 }
+
+
 
 /* footer section */
 
