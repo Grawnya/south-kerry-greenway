@@ -149,7 +149,10 @@ fieldset input, fieldset label, fieldset textarea {
 }
 
 fieldset label {
-    
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
 }
 
 input[type=text],
