@@ -202,6 +202,11 @@ footer i {
     color: var(--light-yellow);
 }
 
-.socials > a {
-    display: inline-block;
+.socials li {
+    display: inline;
+}
+
+.socials i {
+    font-size: 250%;
+    margin: 5%;
 }
