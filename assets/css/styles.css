@@ -201,3 +201,7 @@ textarea {
 footer i {
     color: var(--light-yellow);
 }
+
+.socials > a {
+    display: inline-block;
+}
