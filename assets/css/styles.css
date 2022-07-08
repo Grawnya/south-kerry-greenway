@@ -126,6 +126,10 @@ section {
 }
 
 /* Events Section */
+#events {
+    padding-bottom: 10px;
+}
+
 #events div {
     color: var(--light-yellow);
     background-color: var(--aquamarine);
