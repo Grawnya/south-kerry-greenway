@@ -246,3 +246,7 @@ footer {
     font-weight: bold;
     padding: 5px 0;
 }
+
+.section-links a:hover {
+    text-decoration: solid underline;
+}
