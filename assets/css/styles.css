@@ -111,7 +111,9 @@ section {
 }
 
 /* Route section */
-
+#route-image {
+    
+}
 
 /* Locations section */
 .location-image { /* make location-image padding and p tag padding inside the location section smaller for larger screens */
