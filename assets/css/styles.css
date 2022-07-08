@@ -114,12 +114,14 @@ section {
 }
 
 /* Route section*/
-section #route {
+#route {
     max-height: 100px;
 }
 
 /* Route-Image section */
-
+#route-image {
+    background-image: url("https://grawnya.github.io/south-kerry-greenway/assets/images/south-kerry-greenway-route.jpg");
+}
 
 /* Locations section */
 .location-image { /* make location-image padding and p tag padding inside the location section smaller for larger screens */
