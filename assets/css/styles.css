@@ -121,6 +121,11 @@ section {
 /* Route-Image section */
 #route-image {
     background-image: url("https://grawnya.github.io/south-kerry-greenway/assets/images/south-kerry-greenway-route.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
 }
 
 /* Locations section */
