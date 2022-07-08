@@ -67,8 +67,11 @@ p {
     margin: 0 auto;
 }
 
-section {
+.page-section {
     min-height: 400px;
+}
+
+section {
     overflow: hidden;
 }
 
@@ -110,11 +113,13 @@ section {
     margin: 15%;
 }
 
-/* Route section */
-#route-image {
-    max-width: 100%;
-    height: auto;
+/* Route section*/
+section #route {
+    max-height: 100px;
 }
+
+/* Route-Image section */
+
 
 /* Locations section */
 .location-image { /* make location-image padding and p tag padding inside the location section smaller for larger screens */
