@@ -146,6 +146,10 @@ section {
     display: block;
 }
 
+.location-image:hover {
+    box-shadow: 10px 5px 5px gray;
+}
+
 #location p {
     margin: 1% 15% 5%;
 }
