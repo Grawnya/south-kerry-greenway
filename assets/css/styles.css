@@ -164,7 +164,8 @@ section {
     background-color: var(--aquamarine);
     clear: both;
     height: 200px;
-    padding: 25px 0;
+    /* padding: 25px 0; */
+    vertical-align: middle;
     text-align: center;
     border: 1rem solid var(--dark-blue);
     width: 100%;
