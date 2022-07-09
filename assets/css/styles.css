@@ -28,6 +28,10 @@ h1 {
     color: var(--light-yellow);
 }
 
+a {
+    text-decoration: none;
+}
+
 .yellow-section {
     color: var(--dark-blue);
     background-color: var(--light-yellow);
@@ -139,10 +143,6 @@ section {
 
 #location p {
     margin: 1% 15% 5%;
-}
-
-#location div div h3 a {
-    text-decoration: none;
 }
 
 /* Events Section */
