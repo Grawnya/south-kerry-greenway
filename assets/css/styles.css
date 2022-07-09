@@ -164,7 +164,6 @@ section {
     background-color: var(--aquamarine);
     clear: both;
     height: 200px;
-    /* padding: 25px 0; */
     vertical-align: middle;
     text-align: center;
     border: 1rem solid var(--dark-blue);
@@ -233,6 +232,7 @@ textarea {
     border: 4px solid var(--dark-blue);
     color: var(--dark-blue);
     background-color: var(--light-yellow);
+    font-size: 130%;
 }
 
 /* footer section */
