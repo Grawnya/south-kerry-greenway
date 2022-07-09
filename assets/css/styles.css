@@ -141,6 +141,10 @@ section {
     margin: 1% 15% 5%;
 }
 
+#location a {
+    text-decoration: none;
+}
+
 /* Events Section */
 #events {
     padding-bottom: 10px;
