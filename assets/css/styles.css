@@ -140,7 +140,6 @@ section {
     background-size: contain;
     width: 100%;
     overflow: hidden;
-    /* min-height: 400px; */
     padding-top: 56.9%; 
     /* (img-height / img-width * container-width) */
     /* (752 / 1322 * 100) */
@@ -309,4 +308,10 @@ footer {
     #about p {
         margin: 8% 15%;
     }
+
+    /* route image section */
+    #route-image {
+        padding-top: 0;
+        min-height: 400px;
+        }
 }
