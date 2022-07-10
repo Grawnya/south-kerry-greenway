@@ -303,10 +303,7 @@ footer {
 @media screen and (min-width:992px) {
     /* nav bar menu items */
     #menu-bar li {
-        width: 24%;
+        width: 15.5%;
     }
 
-    .left-indent {
-        padding-left: 24.5%;
-    }
 }
