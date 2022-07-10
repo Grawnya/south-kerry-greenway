@@ -286,6 +286,8 @@ footer {
     text-decoration: solid underline;
 }
 
+/* Contact Page */
+
 /* media query for tablet screens and larger */
 @media screen and (min-width:768px) {
     /* nav bar menu items */
