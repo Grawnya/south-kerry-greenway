@@ -263,6 +263,11 @@ footer {
     width: 23.5%;
     text-align: center;
     padding: 20px 0;
+    transition-delay: 0.2s;
+}
+
+.socials i:hover {
+    color: var(--light-aqua);
 }
 
 .section-links li {
