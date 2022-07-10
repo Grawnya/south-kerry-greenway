@@ -304,4 +304,9 @@ footer {
     #menu-bar li {
         width: 16.6%;
     }
+
+    /* about section */
+    #about p {
+        margin: 8% 15%;
+    }
 }
