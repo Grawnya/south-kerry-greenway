@@ -179,6 +179,10 @@ section {
     transition-delay: 0.4s;
 }
 
+#events div h3 {
+    padding-top: 0;
+}
+
 #events div:hover {
     font-size: 110%;
 }
@@ -313,5 +317,8 @@ footer {
     #route-image {
         padding-top: 0;
         min-height: 400px;
-        }
+    }
+
+    /* events section */
+
 }
