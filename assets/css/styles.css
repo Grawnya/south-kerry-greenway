@@ -170,12 +170,12 @@ section {
     background-color: var(--aquamarine);
     clear: both;
     height: 200px;
+    display: inline-block;
     vertical-align: middle;
     text-align: center;
     border: 1rem solid var(--dark-blue);
     width: 100%;
     box-sizing: border-box;
-    display: inline-block;
     transition-delay: 0.4s;
 }
 
@@ -293,7 +293,8 @@ footer {
         width: 32.5%;
         height: 400px;
         font-size: 90%;
-        padding-top: 10%;
+        line-height: 50px;
+        padding-top: 50px;
     }
 
     #events {
