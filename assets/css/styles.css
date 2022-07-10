@@ -279,6 +279,7 @@ footer {
     text-decoration: solid underline;
 }
 
+/* media query for tablet screens and larger */
 @media screen and (min-width:768px) {
     /* nav bar menu items */
     #menu-bar li {
@@ -296,4 +297,9 @@ footer {
     #events {
         padding-left: 1rem;
     }
+}
+
+/* media query for large screens*/
+@media screen and (min-width:992px) {
+
 }
