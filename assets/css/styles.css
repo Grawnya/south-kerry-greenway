@@ -288,6 +288,13 @@ footer {
 
 /* Contact Page */
 
+#contact-submission {
+    position: absolute;
+    top: 50%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
 /* media query for tablet screens and larger */
 @media screen and (min-width:768px) {
     /* nav bar menu items */
