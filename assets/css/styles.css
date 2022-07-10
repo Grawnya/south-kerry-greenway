@@ -28,13 +28,17 @@ h1 {
     color: var(--light-yellow);
 }
 
+h3 {
+    padding-top: 20px;
+}
+
 a {
     text-decoration: none;
     color: inherit;
 }
 
-h3 {
-    padding-top: 20px;
+p {
+    font-size: 120%;
 }
 
 .yellow-section {
@@ -136,8 +140,9 @@ section {
     background-size: contain;
     width: 100%;
     overflow: hidden;
-    height: 0;
-    padding-top: 56.9%; /* (img-height / img-width * container-width) */
+    /* min-height: 400px; */
+    padding-top: 56.9%; 
+    /* (img-height / img-width * container-width) */
     /* (752 / 1322 * 100) */
 }
 
@@ -270,4 +275,8 @@ footer {
 
 .section-links a:hover {
     text-decoration: solid underline;
+}
+
+@media screen and (min-width:) {
+    
 }
