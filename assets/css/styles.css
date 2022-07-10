@@ -65,8 +65,8 @@ p {
 }
 
 #section-heading {
-    text-align: center; /* left for tablet +*/
-    /* margin-left: 30px; for tablet +*/
+    text-align: center; /* left for large screen +*/
+    /* margin-left: 30px; for large screen +*/
     margin: 10px auto;
     font-size: 180%;
     display: block;
@@ -109,7 +109,7 @@ section {
 #menu-bar li {
     list-style: none;
     display: inline-block;
-    width: 45%; /* Make 30 for tablet and 100% for larger than tablet */
+    width: 45%; /* Make 33 for tablet and 100% for larger than tablet */
     margin: 0 auto;
     text-align: center;
 }
@@ -282,5 +282,17 @@ footer {
     /* nav bar menu items */
     #menu-bar li {
         width: 32%;
+    }
+
+    /* events section */
+    #events div {
+        display: inline-block;
+        width: 32%;
+        height: 400px;
+        font-size: 90%;
+    }
+
+    #events {
+        padding-left: 1rem;
     }
 }
