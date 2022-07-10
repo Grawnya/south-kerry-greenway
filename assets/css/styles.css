@@ -108,7 +108,7 @@ section {
 #menu-bar li {
     list-style: none;
     display: inline-block;
-    width: 45%; /* Make 33 for tablet and 100% for larger than tablet */
+    width: 50%; /* Make 33 for tablet and 100% for larger than tablet */
     margin: 0 auto;
     text-align: center;
 }
@@ -303,7 +303,5 @@ footer {
     /* nav bar menu items */
     #menu-bar li {
         width: 16.6%;
-        /* font-size: 80%; */
     }
-
 }
