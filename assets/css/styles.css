@@ -294,6 +294,7 @@ footer {
     transform: translate(-50%, -50%);
     background-color: var(--dark-blue);
     color: var(--light-yellow);
+    text-align: center;
 }
 
 /* media query for tablet screens and larger */
