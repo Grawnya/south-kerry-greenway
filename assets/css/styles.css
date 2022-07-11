@@ -299,17 +299,22 @@ footer {
 #contact-submission h3 {
     text-align: center;
     text-decoration: none;
-    font-size: 500%;
 }
 
 #contact-submission p {
     padding-bottom: 10%;
     text-align: center;
-    font-size: 200%;
 }
 
 #contact-submission p a {
     text-decoration: underline;
+}
+
+.contact-rule {
+    border: none;
+    border-top: 3px solid var(--light-yellow);
+    height: 5px;
+    overflow: visible;
 }
 
 /* media query for tablet screens and larger */
