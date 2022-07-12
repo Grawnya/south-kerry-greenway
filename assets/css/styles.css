@@ -172,6 +172,10 @@ section {
     padding-top: 0;
 }
 
+.event-format li{
+    list-style: none;
+}
+
 /* Contact Section */
 #contact p {
     margin: 1% 15% 3%;
