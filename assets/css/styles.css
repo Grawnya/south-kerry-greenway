@@ -111,6 +111,7 @@ section {
 #menu-bar a {
     color: var(--light-yellow);
     font-weight: bold;
+    text-shadow: -2px 0 var(--dark-blue), 0 2px var(--dark-blue), 2px 0 var(--dark-blue), 0 -2px var(--dark-blue);
 }
 
 #page-title, #menu-bar {
