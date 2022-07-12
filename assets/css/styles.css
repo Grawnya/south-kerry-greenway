@@ -24,10 +24,19 @@ h1 {
     color: var(--light-yellow);
 }
 
+h1, h2, #menu-bar {
+    letter-spacing: 0.1rem;
+}
+
 h3 {
     padding: 1rem 0;
     font-size: 1.5rem;
     text-decoration: solid underline;
+}
+
+p {
+    font-size: 1.2rem;
+    text-align: justify;
 }
 
 a {
@@ -35,9 +44,33 @@ a {
     color: inherit;
 }
 
-p {
-    font-size: 1.2rem;
+section {
+    overflow: hidden;
 }
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 70%;
+    border: 0.1rem solid var(--dark-blue);
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+input[type=text],
+input[type=email] {
+    height: 3rem;   
+}
+
+textarea {
+    height: 20rem;
+}
+
+footer {
+    overflow: hidden;
+    padding-bottom: 2rem;
+}
+
 .yellow-section {
     color: var(--dark-blue);
     background-color: var(--light-yellow);
@@ -46,18 +79,6 @@ p {
 .blue-section {
     color: var(--light-yellow);
     background-color: var(--dark-blue);
-}
-
-#menu-bar a:hover {
-    text-decoration: solid underline;
-}
-
-h1, h2, #menu-bar {
-    letter-spacing: 0.1rem;
-}
-
-p {
-    text-align: justify;
 }
 
 .section-heading {
@@ -78,10 +99,6 @@ p {
 
 .page-section {
     min-height: 40rem;
-}
-
-section {
-    overflow: hidden;
 }
 
 /* heading section */
@@ -114,6 +131,10 @@ section {
     text-shadow: -2px 0 var(--dark-blue), 0 2px var(--dark-blue), 2px 0 var(--dark-blue), 0 -2px var(--dark-blue);
 }
 
+#menu-bar a:hover {
+    text-decoration: solid underline;
+}
+
 #page-title, #menu-bar {
     line-height: 4rem;
 }
@@ -135,6 +156,10 @@ section {
 }
 
 /* Locations section */
+#location p {
+    margin: 1% 15% 5%;
+}
+
 .location-image {
     width: 300px;
     height: 200px;
@@ -143,10 +168,6 @@ section {
 
 .location-image:hover {
     box-shadow: 10px 5px 5px gray;
-}
-
-#location p {
-    margin: 1% 15% 5%;
 }
 
 /* Events Section */
@@ -166,6 +187,7 @@ section {
     width: 100%;
     box-sizing: border-box;
     transition-delay: 0.4s;
+    padding: 4rem 1rem 0;
 }
 
 /* Contact Section */
@@ -173,33 +195,15 @@ section {
     margin: 1% 15% 3%;
 }
 
-fieldset input, fieldset label, fieldset textarea {
+.fieldset-format {
     margin-left: 15%;
     font-size: large;
 }
 
-fieldset label {
+.label-format {
     font-weight: bold;
     padding: 0.5rem 0;
     display: block;
-}
-
-input[type=text],
-input[type=email],
-textarea {
-    width: 70%;
-    border: 0.1rem solid var(--dark-blue);
-    border-radius: 0.5rem;
-    padding-left: 0.5rem;
-}
-
-input[type=text],
-input[type=email] {
-    height: 3rem;   
-}
-
-textarea {
-    height: 20rem;
 }
 
 .submit-button {
@@ -225,12 +229,6 @@ textarea {
 }
 
 /* footer section */
-
-footer {
-    overflow: hidden;
-    padding-bottom: 2rem;
-}
-
 .socials li {
     display: inline;
 }
@@ -307,12 +305,12 @@ footer {
     }
     
     /* events section */
-    #events div {
+    .specific-event {
         width: 32.5%;
         height: 400px;
         font-size: 90%;
         line-height: 2rem;
-        padding-top: 3rem;
+        padding-top: 4.5rem;
     }
 
     #events {
@@ -358,7 +356,7 @@ footer {
         align-items: center;
     }
 
-    #glenbeigh img, #kells img, #cahersiveen img {
+    .location-image {
         display: inline-block;
         height: 180px;
         width: 270px;
@@ -368,5 +366,10 @@ footer {
         display: inline-block;
         width: 60%;
         padding-right: 5%;
+    }
+
+    /* events section */
+    .specific-event {
+        padding-top: 6rem;
     }
 }
