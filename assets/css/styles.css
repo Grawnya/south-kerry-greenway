@@ -275,16 +275,24 @@ footer {
 #contact-submission h3 {
     text-align: center;
     text-decoration: none;
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 #contact-submission p {
     padding-bottom: 1rem;
     text-align: center;
+    font-size: 1.5rem;
 }
 
-#contact-submission p a {
+#here {
     text-decoration: underline;
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+#here:hover {
+    background-color: var(--light-yellow);
+    color: var(--dark-blue);
 }
 
 .contact-rule {
