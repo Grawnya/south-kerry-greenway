@@ -15,10 +15,6 @@
     font-family: 'Jost', sans-serif;
 }
 
-html {
-
-}
-
 body {
     background-color: var(--light-yellow);
     font-size: 1rem;
@@ -29,7 +25,7 @@ h1 {
 }
 
 h3 {
-    padding-top: 1.25rem;
+    padding: 1rem 0;
     font-size: 1.5rem;
 }
 
@@ -66,10 +62,9 @@ p {
 .section-heading {
     text-align: center;
     margin: 1rem auto;
-    font-size: 180%;
+    font-size: 1.8rem;
     display: block;
     clear: both;
-    padding: 20px 0;
 }
 
 .center-text {
@@ -81,7 +76,7 @@ p {
 }
 
 .page-section {
-    min-height: 400px;
+    min-height: 40rem;
 }
 
 section {
@@ -96,18 +91,18 @@ section {
 }
 
 #page-title {
-    font-size: 230%;
+    font-size: 2.5rem;
 }
 
 #menu-bar {
-    font-size: 150%;
+    font-size: 1.5rem;
     overflow: hidden;
 }
 
 #menu-bar li {
     list-style: none;
     display: inline-block;
-    width: 50%; /* Make 33 for tablet and 100% for larger than tablet */
+    width: 50%;
     margin: 0 auto;
     text-align: center;
 }
@@ -118,17 +113,12 @@ section {
 }
 
 #page-title, #menu-bar {
-    line-height: 60px;
+    line-height: 4rem;
 }
 
 /* About section */
 #about p {
     margin: 15%;
-}
-
-/* Route section*/
-#route {
-    max-height: 100px;
 }
 
 /* Route-Image section */
@@ -139,13 +129,11 @@ section {
     background-size: contain;
     width: 100%;
     overflow: hidden;
-    padding-top: 56.9%; 
-    /* (img-height / img-width * container-width) */
-    /* (752 / 1322 * 100) */
+    padding-top: 56.9%;
 }
 
 /* Locations section */
-.location-image { /* make location-image padding and p tag padding inside the location section smaller for larger screens */
+.location-image {
     width: 300px;
     height: 200px;
     display: block;
@@ -161,14 +149,14 @@ section {
 
 /* Events Section */
 #events {
-    padding-bottom: 10px;
+    padding-bottom: 1rem;
 }
 
 #events div {
     color: var(--light-yellow);
     background-color: var(--aquamarine);
     clear: both;
-    height: 200px;
+    height: 20rem;
     display: inline-block;
     vertical-align: middle;
     text-align: center;
@@ -180,10 +168,6 @@ section {
 
 #events div h3 {
     padding-top: 0;
-}
-
-#events div:hover {
-    font-size: 110%;
 }
 
 /* Contact Section */
@@ -198,8 +182,7 @@ fieldset input, fieldset label, fieldset textarea {
 
 fieldset label {
     font-weight: bold;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 0.5rem 0;
     display: block;
 }
 
@@ -207,49 +190,47 @@ input[type=text],
 input[type=email],
 textarea {
     width: 70%;
-    border: 2px solid var(--dark-blue);
-    border-radius: 10px;
-    padding-left: 10px;
+    border: 0.1rem solid var(--dark-blue);
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
 }
 
 input[type=text],
 input[type=email] {
-    height: 30px;   
+    height: 3rem;   
 }
 
 textarea {
-    height: 300px;
-    padding-top: 10px;
+    height: 20rem;
 }
 
 .submit-button {
     background-color: var(--dark-blue);
     border: none;
     color: var(--light-yellow);
-    padding: 15px 32px;
+    padding: 1rem 2rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin-top: 10px;
-    margin-bottom: 30px;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
     border-radius: 5%;
     transition-duration: 0.4s;
     font-weight: bold;
 }
 
 .submit-button:hover {
-    border: 4px solid var(--dark-blue);
+    border: 0.2rem solid var(--dark-blue);
     color: var(--dark-blue);
     background-color: var(--light-yellow);
-    font-size: 130%;
 }
 
 /* footer section */
 
 footer {
     overflow: hidden;
-    padding-bottom: 20px;
+    padding-bottom: 2rem;
 }
 
 .socials li {
@@ -258,14 +239,14 @@ footer {
 
 .socials i {
     color: var(--light-yellow);
-    font-size: 250%;
+    font-size: 2.5rem;
     width: 23.5%;
     text-align: center;
-    padding: 20px 0;
+    padding: 2rem 0;
     transition-delay: 0.2s;
 }
 
-.socials i:hover {
+.socials i:hover, .section-links li a:hover {
     color: var(--light-aqua);
 }
 
@@ -276,13 +257,8 @@ footer {
 
 .section-links a {
     color: var(--light-yellow);
-    font-size: 130%;
     font-weight: bold;
-    padding: 5px 0;
-}
-
-.section-links a:hover {
-    text-decoration: solid underline;
+    padding: 0.5rem 0;
 }
 
 /* Contact Page */
@@ -301,7 +277,7 @@ footer {
 }
 
 #contact-submission p {
-    padding-bottom: 10%;
+    padding-bottom: 1rem;
     text-align: center;
 }
 
@@ -311,8 +287,8 @@ footer {
 
 .contact-rule {
     border: none;
-    border-top: 3px solid var(--light-yellow);
-    height: 5px;
+    border-top: 0.3rem solid var(--light-yellow);
+    height: 0.5rem;
     overflow: visible;
 }
 
@@ -328,8 +304,8 @@ footer {
         width: 32.5%;
         height: 400px;
         font-size: 90%;
-        line-height: 50px;
-        padding-top: 50px;
+        line-height: 2rem;
+        padding-top: 3rem;
     }
 
     #events {
