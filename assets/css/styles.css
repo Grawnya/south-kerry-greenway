@@ -85,7 +85,7 @@ section {
 
 /* heading section */
 #home {
-    background: url('https://grawnya.github.io/south-kerry-greenway/assets/images/kells_bay1.jpg') no-repeat left center;
+    background: url('./assets/images/kells_bay.jpg') no-repeat left center;
     background-size: cover;
     height: 400px;
 }
@@ -123,7 +123,7 @@ section {
 
 /* Route-Image section */
 #route-image {
-    background-image: url("https://grawnya.github.io/south-kerry-greenway/assets/images/south-kerry-greenway-route-small-screen.jpg");
+    background-image: url("../assets/images/south-kerry-greenway-route-small-screen.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: contain;
