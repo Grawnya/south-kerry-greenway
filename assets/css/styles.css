@@ -154,7 +154,7 @@ section {
     padding-bottom: 1rem;
 }
 
-#events div {
+.specific-event {
     color: var(--light-yellow);
     background-color: var(--aquamarine);
     clear: both;
@@ -166,14 +166,6 @@ section {
     width: 100%;
     box-sizing: border-box;
     transition-delay: 0.4s;
-}
-
-#events div h3 {
-    padding-top: 0;
-}
-
-.event-format li{
-    list-style: none;
 }
 
 /* Contact Section */
