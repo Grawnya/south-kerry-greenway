@@ -27,6 +27,7 @@ h1 {
 h3 {
     padding: 1rem 0;
     font-size: 1.5rem;
+    text-decoration: solid underline;
 }
 
 a {
@@ -47,7 +48,7 @@ p {
     background-color: var(--dark-blue);
 }
 
-#menu-bar a:hover, h2:hover, h3 {
+#menu-bar a:hover {
     text-decoration: solid underline;
 }
 
