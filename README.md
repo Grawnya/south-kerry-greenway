@@ -22,6 +22,16 @@ The website's primary aim is to provide the user with information about the new 
         * [Colours](#colours "Colours")
         * [Structure](#structure "Structure")
 * [Wireframes](#wireframes "Wireframes")
+* [Features](#features "Features")
+    * [Existing Features](#existing-features "Existing Features")
+        * [Landing Page](#landing-page "Landing Page")
+        * [Navigation Bar](#navigation-bar "Navigation Bar")
+        * [About](#about "About")
+        * [Route](#route "Route")
+        * [Locations](#locations "Locations")
+        * [Events](#events "Events")
+        * [Contact](#contact "Contact")
+        * [Footer](#footer "Footer")
 
 
 # UX
@@ -112,3 +122,15 @@ Basic wireframes can be found below:
 [Back to Top](#table-of-contents)
 \
 &nbsp;
+
+# Features
+## Existing Features
+
+### landing page
+The landing page consists of an impressive and enticing image to lure the user in. The ocean view suggests that the area is a tourist attraction and used for either recreation or relaxing activities. The title at the top of the page highlights that the location hero image is part of a cycleway or greenway.
+
+The sizing of the hero image section allows the user to peak into the “About” section, which prompts the user to scroll downwards. This can be seen in the screenshot below:
+
+![Landing Page](documentation/landing-page-mobile-jpg)
+
+The larger screen sizes include room for the about section maintain the images aspect ratio so it is not stretched and the navigation bar remains in place.
