@@ -15,6 +15,7 @@ The website's primary aim is to provide the user with information about the new 
     * [User Stories](#user-stories "User Stories")
     * [User Requirements and Expectations](#user-requirements-and-expectations)
          * [Requirements](#requirements)
+         * [Expectations](#expectations)
 
 
 
@@ -42,4 +43,17 @@ The website's primary aim is to provide the user with information about the new 
 * Add all required information in a clear and concise manner.
 * Entice the user to cycle the Greenway with attractive pictures and interesting events.
 * Provide an quick and simple way to contact the management of the South Kerry Greenway.
+
+### Expectations
+* I expect the website to flow nicely with a clear, logical order of sections.
+* I expect the website to be completely responsive to all screen sizes
+* I expect to set up the form, so that it has to be correctly filled out in order for it to be successfully submitted.
+* I expect all links to work correctly.
+* I expect all location and social media links to open in a separate tab.
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
 
