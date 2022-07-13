@@ -174,3 +174,21 @@ For large screens (992+ px), the image keeps its aspect ratio and instead remain
 
 \
 &nbsp;
+
+### Locations
+To provide the user with more information of key stops, the locations section follows the logical progression of thought below the Route section. It provides information on 3 stops – Glenbeigh, Gleensk Viaduct & Kells, as well as Cahersiveen.
+
+On mobile, the places stack on top of one another in the order, as seen below for Glenbeigh:
+* Leading Image
+* Title
+* Descriptive Text
+
+![Locations Section](documentation/locations-mobile.jpg)
+
+The title also allows the user to click on the town’s specific website, in case they want to look at a certain location in more detail, book accommodation etc.
+
+For large screens (992+ px), the image keeps to the left and both the small heading and the town’s description sit adjacent to it on the right hand side of the screen – reinforcing the flexibility of the website’s design.
+
+\
+&nbsp;
+
