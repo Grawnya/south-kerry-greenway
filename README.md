@@ -134,10 +134,8 @@ The sizing of the hero image section allows the user to peak into the “About�
 ![Landing Page](documentation/landing-page-mobile.jpg)
 
 The larger screen sizes include room for the about section maintain the images aspect ratio so it is not stretched and the navigation bar remains in place.
-
 \
 &nbsp;
-
 ### Navigation Bar
 
 The navigation bar is designed to be responsive for the different screen sizes and adjusts the width that each section heading item takes up on the screen. Each item within the navigation bar links to a section on the website. In order to increase each items readability, a shadow of contrasting colour is applied around each word, as seen below in a large screen view:
@@ -149,20 +147,16 @@ The navigation bar is designed to be responsive for the different screen sizes a
 The navigation bar stretches across the screen to fill 100% of the width. No background colour was selected to make the design more seamless and integrated with the website.
 
 To also increase visibility and interactivity with the website, when the titles are hovered over, they automatically underline the heading.
-
 \
 &nbsp;
-
 ### About
 The About section provides a brief, yet informative description about the South Kerry Greenway. It gives the user a succinct synopsis about the stops and tourist attractions along the route, whetting the user’s appetite to read more about the South Kerry Greenway.
 
 It is designed to be responsive with the screen size and therefore, occupies the following space on mobile:
 
 ![About Section](documentation/about-mobile.jpg)
-
 \
 &nbsp;
-
 ### Route
 The Route section provides the user with a labelled aerial map of the South Kerry Greenway. Labels of key stops can be found on the image. This makes it easier for the user to determine information and locations of note on the route.
 
@@ -171,10 +165,8 @@ The image is also designed to be completely responsive for all screen sizes. Mob
 ![Route Section](documentation/route-mobile.jpg)
 
 For large screens (992+ px), the image keeps its aspect ratio and instead remains at the centre of the screen with a dark blue background. 
-
 \
 &nbsp;
-
 ### Locations
 To provide the user with more information of key stops, the locations section follows the logical progression of thought below the Route section. It provides information on 3 stops – Glenbeigh, Gleensk Viaduct & Kells, as well as Cahersiveen.
 
@@ -188,7 +180,16 @@ On mobile, the places stack on top of one another in the order, as seen below fo
 The title also allows the user to click on the town’s specific website, in case they want to look at a certain location in more detail, book accommodation etc.
 
 For large screens (992+ px), the image keeps to the left and both the small heading and the town’s description sit adjacent to it on the right hand side of the screen – reinforcing the flexibility of the website’s design.
-
 \
 &nbsp;
 
+### Events
+The event section shows upcoming events on stops along the South Kerry Greenway. Suitable icons are placed next to the event titles to reinforce what the event topic is.
+
+The event details, such as the location and dates are located below the event heading. To ensure that the website is responsive, the individual events are stacked on top of each other for small/mobile screens as seen below:
+
+![Events Section](documentation/events-mobile.jpg)
+
+For medium and larger screen, the events all occupy one row.
+\
+&nbsp;
