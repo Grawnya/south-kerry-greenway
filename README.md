@@ -36,7 +36,6 @@ The website's primary aim is to provide the user with information about the new 
         * [Events](#events "Events")
         * [Contact](#contact "Contact")
         * [Footer](#footer "Footer")
-        * [Contact Page](#contact-page "Contact Page")
 
 
 # UX
@@ -200,3 +199,14 @@ For medium and larger screen, the events all occupy one row.
 &nbsp;
 
 ### Contact
+The contact section enables the website user to quickly reach out to the management of the South Kerry Greenway if they have any queries that need answering. The contact form is placed towards the bottom of the page, so the user has to navigate through each section, looking at all the information, which will hopefully answer their question. Therefore, only in a circumstance where they have a specific query, will they fill out the form seen below in mobile form:
+
+![Contact Section](documentation/contact-mobile.jpg)
+
+The email text input needs to be written in the correct format with an “@” symbol and all text fields need to be filled to ensure that the form will successfully be submitted. When the user hovers over the submit button, the button colours invert and it increases in size to show that the button is active and ready to be selected.
+
+If the user has successfully submitted the form, they are redirected to a specific page, which will prompt the user to return to the top of the homepage:
+
+![Contact Page]( documentation/contact-page-mobile.jpg)
+\
+&nbsp;
