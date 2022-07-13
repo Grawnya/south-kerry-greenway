@@ -16,6 +16,7 @@ The website's primary aim is to provide the user with information about the new 
     * [User Requirements and Expectations](#user-requirements-and-expectations)
          * [Requirements](#requirements)
          * [Expectations](#expectations)
+* [Design Choices](#design-choices)
 
 
 
@@ -57,3 +58,7 @@ The website's primary aim is to provide the user with information about the new 
 \
 &nbsp;
 
+## Design Choices
+
+### Font
+To deviate from the standard fonts, [Google Fonts](https://fonts.google.com/ "Google Fonts") was used to obtain a font style, which would attract people to the website. [Jost]( https://fonts.google.com/specimen/Jost?query=jost) fulfilled the criteria for both headings and main body text, as it was easily readable, had clean edges and complemented the informative nature of the website.
