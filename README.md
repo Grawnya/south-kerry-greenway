@@ -16,8 +16,9 @@ The website's primary aim is to provide the user with information about the new 
     * [User Requirements and Expectations](#user-requirements-and-expectations)
          * [Requirements](#requirements)
          * [Expectations](#expectations)
-* [Design Choices](#design-choices)
-
+* [Design Choices](#design-choices "Design Choices")
+    * [Font](#font "Font")
+    * [Icons](#icons "Icons")
 
 
 # UX
@@ -62,3 +63,7 @@ The website's primary aim is to provide the user with information about the new 
 
 ### Font
 To deviate from the standard fonts, [Google Fonts](https://fonts.google.com/ "Google Fonts") was used to obtain a font style, which would attract people to the website. [Jost]( https://fonts.google.com/specimen/Jost?query=jost) fulfilled the criteria for both headings and main body text, as it was easily readable, had clean edges and complemented the informative nature of the website.
+
+### Icons
+In order to obtain some icons for the website, [Font Awesome](https://fontawesome.com/ "Font Awesome") will be utilised. 
+Icons are used for decorative purposes, to reinforce the website is dedicated to a cycleway and to describe the events with one symbol. Social media icons will also be used and all icons will be styled to suit the section they are in.
