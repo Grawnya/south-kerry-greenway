@@ -13,16 +13,18 @@ The website's primary aim is to provide the user with information about the new 
 * [UX](#ux "UX")
     * [User Goals](#user-goals "User Goals")
     * [User Stories](#user-stories "User Stories")
+    * [User Requirements and Expectations](#user-requirements-and-expectations)
+         * [Requirements](#requirements)
 
 
 
 # UX
 ## User Goals
 * Easy to navigate around
-* Simple contact instructions
 * Direct Content about the route
+* Easily obtainable details of the stops and on the route
+* Simple contact instructions
 * Aesthetically pleasing website with pictures of and from along the route
-* Easily obtainable details of the stops on the route
 
 ## User Stories
 * As a user, I want to easily navigate through the website.
@@ -31,3 +33,13 @@ The website's primary aim is to provide the user with information about the new 
 * As a user, I want to know if any events are taking place along the route during the year.
 * As a user, I want to be able to easily contact the people who are managing the South Kerry Greenway.
 * As a user, I want to check out the social media pages from the South Kerry Greenway.
+
+
+## User Requirements and Expectations
+
+### Requirements
+* Easy to navigate on the different screen sizes – mobile, tablet and larger screens.
+* Add all required information in a clear and concise manner.
+* Entice the user to cycle the Greenway with attractive pictures and interesting events.
+* Provide an quick and simple way to contact the management of the South Kerry Greenway.
+
