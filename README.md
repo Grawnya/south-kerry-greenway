@@ -19,6 +19,7 @@ The website's primary aim is to provide the user with information about the new 
 * [Design Choices](#design-choices "Design Choices")
     * [Font](#font "Font")
     * [Icons](#icons "Icons")
+    * [Colours](#colours "Colours")
 
 
 # UX
@@ -67,3 +68,14 @@ To deviate from the standard fonts, [Google Fonts](https://fonts.google.com/ "Go
 ### Icons
 In order to obtain some icons for the website, [Font Awesome](https://fontawesome.com/ "Font Awesome") will be utilised. 
 Icons are used for decorative purposes, to reinforce the website is dedicated to a cycleway and to describe the events with one symbol. Social media icons will also be used and all icons will be styled to suit the section they are in.
+
+### Colours
+To select the colour palette for the project, I used [Color Hunt]( https://colorhunt.co/) to find one that suited the calming coastal vibes of the page and decided to used [this]( https://colorhunt.co/palette/0779e44cbbb977d8d8eff3c6) one. When checking the contrast of the colours on [Web AIM](https://webaim.org/resources/contrastchecker/ "Web AIM"), the deep blue with the light yellow failed. I adjusted the manual colour selector to acquire a darker blue, which met the contrast ratio criteria of 7+. The following colours were selected:
+
+![Colour Palette](documentation/final-color-pallette.jpg)
+
+Where:
+*  #06549D (also known as --dark blue) is used for the background of alternating blue sections, as well as the header, and blue headings in alternating yellow sections.
+*  #0a6a68 (also known as --aquamarine) is used for the background of the events section to add another dark colour to contrast the light yellow.
+*  #56d8d8 (also known as --light aqua) is used for the hover effect of the section headings and social media icons in the footer section to provide an alternative contrast to the dark blue sections.
+*  #f6f8e0 (also known as --light yellow) is used for the background of alternating yellow sections and yellow headings in alternating blue sections.
