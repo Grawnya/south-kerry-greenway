@@ -131,6 +131,18 @@ The landing page consists of an impressive and enticing image to lure the user i
 
 The sizing of the hero image section allows the user to peak into the “About” section, which prompts the user to scroll downwards. This can be seen in the screenshot below:
 
-![Landing Page](documentation/landing-page-mobile-jpg)
+![Landing Page](documentation/landing-page-mobile.jpg)
 
 The larger screen sizes include room for the about section maintain the images aspect ratio so it is not stretched and the navigation bar remains in place.
+
+### Navigation Bar
+
+The navigation bar is designed to be responsive for the different screen sizes and adjusts the width that each section heading item takes up on the screen. Each item within the navigation bar links to a section on the website. In order to increase each items readability, a shadow of contrasting colour is applied around each word, as seen below in a large screen view:
+
+
+![Navigation Bar](documentation/add-text-shadow.jpg)
+
+
+The navigation bar stretches across the screen to fill 100% of the width. No background colour was selected to make the design more seamless and integrated with the website.
+
+To also increase visibility and interactivity with the website, when the titles are hovered over, they automatically underline the heading
