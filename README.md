@@ -135,6 +135,9 @@ The sizing of the hero image section allows the user to peak into the “About�
 
 The larger screen sizes include room for the about section maintain the images aspect ratio so it is not stretched and the navigation bar remains in place.
 
+\
+&nbsp;
+
 ### Navigation Bar
 
 The navigation bar is designed to be responsive for the different screen sizes and adjusts the width that each section heading item takes up on the screen. Each item within the navigation bar links to a section on the website. In order to increase each items readability, a shadow of contrasting colour is applied around each word, as seen below in a large screen view:
@@ -147,6 +150,9 @@ The navigation bar stretches across the screen to fill 100% of the width. No bac
 
 To also increase visibility and interactivity with the website, when the titles are hovered over, they automatically underline the heading.
 
+\
+&nbsp;
+
 ### About
 The About section provides a brief, yet informative description about the South Kerry Greenway. It gives the user a succinct synopsis about the stops and tourist attractions along the route, whetting the user’s appetite to read more about the South Kerry Greenway.
 
@@ -154,4 +160,17 @@ It is designed to be responsive with the screen size and therefore, occupies the
 
 ![About Section](documentation/about-mobile.jpg)
 
+\
+&nbsp;
 
+### Route
+The Route section provides the user with a labelled aerial map of the South Kerry Greenway. Labels of key stops can be found on the image. This makes it easier for the user to determine information and locations of note on the route.
+
+The image is also designed to be completely responsive for all screen sizes. Mobile screen can be seen below, where the route map fills the entire width of the screen:
+
+![Route Section](documentation/route-mobile.jpg)
+
+For large screens (992+ px), the image keeps its aspect ratio and instead remains at the centre of the screen with a dark blue background. 
+
+\
+&nbsp;
