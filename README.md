@@ -7,6 +7,10 @@ Welcome to a website dedicated to the newly confirmed South Kerry Greenway! It w
 
 The website's primary aim is to provide the user with information about the new cycleway, such as the route, stops and any upcoming events in towns along the route – attracting new tourists to the area. It will also allow any tourists to ask any questions regarding the route via a contact form just above the footer.
 
+[Visit the Website Here](https://grawnya.github.io/south-kerry-greenway/)
+
+[Visit the Project's GitHub Repository Here](https://github.com/Grawnya/south-kerry-greenway)
+
 ![Responsive Display](documentation/display-images.jpg)
 
 # Table of Contents
@@ -32,6 +36,7 @@ The website's primary aim is to provide the user with information about the new 
         * [Events](#events "Events")
         * [Contact](#contact "Contact")
         * [Footer](#footer "Footer")
+        * [Contact Page](#contact-page "Contact Page")
 
 
 # UX
@@ -193,3 +198,5 @@ The event details, such as the location and dates are located below the event he
 For medium and larger screen, the events all occupy one row.
 \
 &nbsp;
+
+### Contact
