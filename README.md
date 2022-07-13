@@ -16,10 +16,12 @@ The website's primary aim is to provide the user with information about the new 
     * [User Requirements and Expectations](#user-requirements-and-expectations)
          * [Requirements](#requirements)
          * [Expectations](#expectations)
-* [Design Choices](#design-choices "Design Choices")
-    * [Font](#font "Font")
-    * [Icons](#icons "Icons")
-    * [Colours](#colours "Colours")
+    * [Design Choices](#design-choices "Design Choices")
+        * [Font](#font "Font")
+        * [Icons](#icons "Icons")
+        * [Colours](#colours "Colours")
+        * [Structure](#structure "Structure")
+* [Wireframes](#wireframes "Wireframes")
 
 
 # UX
@@ -79,3 +81,34 @@ Where:
 *  #0a6a68 (also known as --aquamarine) is used for the background of the events section to add another dark colour to contrast the light yellow.
 *  #56d8d8 (also known as --light aqua) is used for the hover effect of the section headings and social media icons in the footer section to provide an alternative contrast to the dark blue sections.
 *  #f6f8e0 (also known as --light yellow) is used for the background of alternating yellow sections and yellow headings in alternating blue sections.
+
+### Structure
+The website will be built for a small mobile screen of width 320px and then will also meet the requirements for a medium/tablet and large screen, as shown in the table below.
+
+| Screen Size   | Breakpoint |
+| -----------   | ---------- |
+| small/mobile  |    320px   |
+| medium/tablet |    768px   |
+| large         |   992+px   |
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+# Wireframes
+[Balsamic](https://balsamiq.com/wireframes/ "Balsamic") was used to create the conception for the website appearance and flow. I initially created a mobile version in-line with my mobile-first approach and then followed with a medium and large screen version. Mobile-first websites are often scrollable as the UX is poor if new tabs and sites are constantly opening. Therefore, a nav bar and links to each section in the footer aid navigation on the website.
+
+Basic wireframes can be found below:
+
+
+### [Large Screen Wireframe](documentation/large-screen.png "Large Screen Wireframe ")
+### [Medium/Tablet Screen Wireframe]( documentation/medium-screen.png " Medium/Tablet Screen Wireframe ")
+### [Mobile Wireframe]( documentation/small-mobile-screen.png "Mobile wireframe")
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
