@@ -126,7 +126,7 @@ Basic wireframes can be found below:
 # Features
 ## Existing Features
 
-### landing page
+### Landing Page
 The landing page consists of an impressive and enticing image to lure the user in. The ocean view suggests that the area is a tourist attraction and used for either recreation or relaxing activities. The title at the top of the page highlights that the location hero image is part of a cycleway or greenway.
 
 The sizing of the hero image section allows the user to peak into the “About” section, which prompts the user to scroll downwards. This can be seen in the screenshot below:
@@ -145,4 +145,13 @@ The navigation bar is designed to be responsive for the different screen sizes a
 
 The navigation bar stretches across the screen to fill 100% of the width. No background colour was selected to make the design more seamless and integrated with the website.
 
-To also increase visibility and interactivity with the website, when the titles are hovered over, they automatically underline the heading
+To also increase visibility and interactivity with the website, when the titles are hovered over, they automatically underline the heading.
+
+### About
+The About section provides a brief, yet informative description about the South Kerry Greenway. It gives the user a succinct synopsis about the stops and tourist attractions along the route, whetting the user’s appetite to read more about the South Kerry Greenway.
+
+It is designed to be responsive with the screen size and therefore, occupies the following space on mobile:
+
+![About Section](documentation/about-mobile.jpg)
+
+
