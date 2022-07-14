@@ -210,3 +210,15 @@ If the user has successfully submitted the form, they are redirected to a specif
 ![Contact Page]( documentation/contact-page-mobile.jpg)
 \
 &nbsp;
+
+
+### Footer
+
+The footer consists of social media icons which link to their respective site i.e. Facebook and Instagram, as well as the LinkedIn page of the website’s developer and their GitHub repository. The footer also contains links to the other sections on the site, as can be seen in the image below
+
+![Footer](documentation/footer-mobile.png)
+
+The footer is made responsive for medium and large screens and in order to indicate what icon or heading the user is hovering on, the text or icon will turn light aqua
+\
+&nbsp;
+
