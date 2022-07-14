@@ -57,6 +57,7 @@ The website's primary aim is to provide the user with information about the new 
         * [Final Attempt](#final-attempt "Final Attempt")
     * [Responsiveness](#responsiveness "Responsiveness")
     * [Web Aim Contast Checker](#web-aim-contast-checker "Web Aim Contast Checker")
+    * [Browser Compatibility](#browser-compatibility "Browser Compatibility")
 
 # UX
 ## User Goals
@@ -383,3 +384,16 @@ The contrast check between the deep blue with the light yellow failed. A darker 
 ![Web Aim Contrast Result](documentation/web-aim-color-contrast-check.jpg)
 \
 &nbsp;
+
+## Browser Compatibility
+
+The website was tested on a variety of browsers to ensure that it was fully functional. 
+
+On desktop, Google Chrome, Mozilla Firefox and Microsoft Edge were utilised. 
+
+On mobile, Google Chrome was utilised.
+
+The responsiveness and the appearance remained relatively the same across the various devices and browsers.
+\
+&nbsp;
+
