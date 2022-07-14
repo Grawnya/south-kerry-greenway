@@ -37,6 +37,9 @@ The website's primary aim is to provide the user with information about the new 
         * [Contact](#contact "Contact")
         * [Footer](#footer "Footer")
     * [Features to be Implemented](#features-to-be-implemented "Features to be Implemented")
+* [Technologies Used](#technologies-used "Technologies Used")
+    * [Languages](#languages "Languages")
+    * [Tools](#tools "Tools")
 
 
 # UX
@@ -217,7 +220,7 @@ If the user has successfully submitted the form, they are redirected to a specif
 
 The footer consists of social media icons which link to their respective site i.e. Facebook and Instagram, as well as the LinkedIn page of the website’s developer and their GitHub repository. The footer also contains links to the other sections on the site, as can be seen in the image below
 
-![Footer](documentation/footer-mobile.png)
+![Footer](documentation/footer-mobile.jpg)
 
 The footer is made responsive for medium and large screens and in order to indicate what icon or heading the user is hovering on, the text or icon will turn light aqua
 \
@@ -231,6 +234,29 @@ The footer is made responsive for medium and large screens and in order to indic
 * Details about a potential cycling club that cycles the route often or organises specific tours for tourists.
 * Set up a bike renting scheme for tourists.
 
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+# Technologies Used
+
+## Languages
+* [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
+* [CSS](https://en.wikipedia.org/wiki/CSS "CSS")
+
+## Tools
+* [Gitpod](https://www.gitpod.io/ "Gitpod")
+* [GitHub](https://github.com/ "GitHub")
+* [Font Awesome](https://fontawesome.com/ "Font Awesome")
+* [Google Fonts](https://fonts.google.com/ "Google Fonts")
+* [Color Hunt](https://colorhunt.co/ "Color Hunt")
+* [Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
+* [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
+* [Web AIM](https://webaim.org/resources/contrastchecker/ "Web AIM")
+* [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en "Lighthouse")
 \
 &nbsp;
 [Back to Top](#table-of-contents)
