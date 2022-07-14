@@ -40,7 +40,15 @@ The website's primary aim is to provide the user with information about the new 
 * [Technologies Used](#technologies-used "Technologies Used")
     * [Languages](#languages "Languages")
     * [Tools](#tools "Tools")
-
+* [Testing](#testing "Testing")
+    * [Code Validation](#code-validation "Code Validation")
+        * [W3C HTML Validator](#w3c-html-validator "W3C HTML Validator")
+            * [Home Page](#home-page "Home Page")
+                * [First Attempt](#first-attempt "First Attempt")
+                * [Second Attempt](#second-attempt "Second Attempt")
+                * [Final Attempt](#final-attempt "Final Attempt")
+            * [Contact Page](#contact-page "Contact Page")
+                * [First Attempt](#first-attempt "First Attempt")
 
 # UX
 ## User Goals
@@ -262,3 +270,38 @@ The footer is made responsive for medium and large screens and in order to indic
 [Back to Top](#table-of-contents)
 \
 &nbsp;
+
+# Testing
+
+## Code Validation 
+
+### W3C HTML Validator
+
+I validated my HTML at various stages of the website creation using the [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML"). The various attempts for both the [Home Page](#home-page “Home Page”) and the [Contact Form](#contact-form “Contact Form”) are detailed below.
+
+#### Home Page
+##### First Attempt
+
+The primary issue that arose in the first attempt was the repetitive use of an ID, which was rectified by changing the “section-heading” ID to a class.
+
+![First W3C HTML Validator Test Result](documentation/w3c-html-validator-attempt-1-with-issue-of-reusing-id.jpg)
+
+##### Second Attempt
+
+Only a single warning was obtained in the second attempt and the route image element was changed to a div from a section
+
+![Second W3C HTML Validator Test Result](documentation/w3c-html-validator-attempt-2.jpg)
+
+##### Final Attempt
+
+No issues arose.
+
+![Final W3C HTML Validator Test Result](documentation/w3c-html-validator-attempt-3.jpg)
+
+
+#### Contact Page
+##### First Attempt
+
+No issues arose.
+
+![First W3C HTML Validator Test Result](documentation/w3c-html-validator-attempt-3.jpg)
