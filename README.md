@@ -148,7 +148,7 @@ The website will be built for a small mobile screen of width 320px and then will
 &nbsp;
 
 # Wireframes
-[Balsamic](https://balsamiq.com/wireframes/ "Balsamic") was used to create the conception for the website appearance and flow. I initially created a mobile version in-line with my mobile-first approach and then followed with a medium and large screen version. Mobile-first websites are often scrollable as the UX is poor if new tabs and sites are constantly opening. Therefore, a nav bar and links to each section in the footer aid navigation on the website.
+[Balsamiq](https://balsamiq.com/wireframes/ "Balsamiq") was used to create the conception for the website appearance and flow. I initially created a mobile version in-line with my mobile-first approach and then followed with a medium and large screen version. Mobile-first websites are often scrollable as the UX is poor if new tabs and sites are constantly opening. Therefore, a nav bar and links to each section in the footer aid navigation on the website.
 
 Basic wireframes can be found below:
 
@@ -286,7 +286,7 @@ The footer is made responsive for medium and large screens and in order to indic
 * [Font Awesome](https://fontawesome.com/ "Font Awesome")
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
 * [Color Hunt](https://colorhunt.co/ "Color Hunt")
-* [Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
+* [Balsamiq](https://balsamiq.com/wireframes/ "Balsamiq")
 * [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
 * [Web AIM](https://webaim.org/resources/contrastchecker/ "Web AIM")
@@ -302,7 +302,7 @@ The footer is made responsive for medium and large screens and in order to indic
 
 ## Code Validation 
 ### W3C HTML Validator
-I validated my HTML at various stages of the website creation using the [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML"). The various attempts for both the [Home Page](#home-page "Home Page") and the [Contact Form](#contact-form "Contact Form") are detailed below.
+I validated my HTML at various stages of the website creation using the [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML"). The various attempts for both the [Home Page](#home-page "Home Page") and the [Contact Form](#contact "Contact Form") are detailed below.
 
 #### Home Page
 ##### First Attempt
@@ -435,10 +435,14 @@ Cause: Low contrast colour ratio
 Resolution: Add a dark blue shadow around the navigation bar headings to make them more distinct from the hero image.
 
 Before:
+\
+&nbsp;
 ![Before Text Shadow](documentation/before-text-shadow.jpg)
 
 After:
-![After Text Shadow](documentation/after-text-shadow.jpg)
+\
+&nbsp;
+![After Text Shadow](documentation/add-text-shadow.jpg)
 
 ### Responsive Route Image
 Problem: In order to improve the responsiveness of the website, the aim was to make the route image as readable as possible on all screens. Yet when placing the background image, it was difficult to set it to a particular height to ensure that the full image took up the width while maintaining its aspect ratio.
@@ -446,9 +450,13 @@ Cause: Difficult to account for both small screens and large screens when creati
 Resolution: Set a padding-top attribute to 56.9% based on the formula in the first comment in this [Stack Overflow thread]( https://stackoverflow.com/questions/600743/how-to-get-div-height-to-auto-adjust-to-background-size)
 
 Before:
+\
+&nbsp;
 ![Before Adding Top Padding](documentation/before-auto-adjusting-route-height.jpg)
 
 After:
+\
+&nbsp;
 ![After Adding Top Padding](documentation/after-auto-adjusting-route-height.jpg)
 
 ### Navigation Bar Spacing
@@ -457,9 +465,13 @@ Cause: Whitespace from the stacking of the <li> tags in the <nav> element
 Resolution: Restack and indent the <li> tags to remove the whitespace. 
 
 Before:
+\
+&nbsp;
 ![Before Removing <li> Indent](documentation/before-removing-li-indent.jpg)
 
 After:
+\
+&nbsp;
 ![After Removing <li> Indent](documentation/after-removing-li-indent.jpg)
 
 ### Section Disappearing Between Next Section
