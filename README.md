@@ -45,17 +45,17 @@ The website's primary aim is to provide the user with information about the new 
     * [Code Validation](#code-validation "Code Validation")
         * [W3C HTML Validator](#w3c-html-validator "W3C HTML Validator")
             * [Home Page](#home-page "Home Page")
-                * [First Attempt](#first-attempt "First Attempt")
-                * [Second Attempt](#second-attempt "Second Attempt")
-                * [Final Attempt](#final-attempt "Final Attempt")
+                * [First Attempt](#first-attempt-home "First Attempt")
+                * [Second Attempt](#second-attempt-home "Second Attempt")
+                * [Final Attempt](#final-attempt-home "Final Attempt")
             * [Contact Page](#contact-page "Contact Page")
-                * [First Attempt](#first-attempt "First Attempt")
+                * [First Attempt](#first-attempt-contact "First Attempt")
         * [W3C CSS Validator](#w3c-css-validator "W3C CSS Validator")
             * [Home and Contact Page](#home-and-contact-page "Home and Contact Page")
-                * [First Attempt](#first-attempt "First Attempt")
+                * [First Attempt](#first-attempt-css "First Attempt")
     * [Lighthouse](#lighthouse "Lighthouse")
-        * [First Attempt](#first-attempt "First Attempt")
-        * [Final Attempt](#final-attempt "Final Attempt")
+        * [First Attempt](#first-attempt-lighthouse "First Attempt")
+        * [Final Attempt](#final-attempt-lighthouse "Final Attempt")
     * [Responsiveness](#responsiveness "Responsiveness")
     * [Web Aim Contast Checker](#web-aim-contast-checker "Web Aim Contast Checker")
     * [Browser Compatibility](#browser-compatibility "Browser Compatibility")
@@ -305,23 +305,23 @@ The footer is made responsive for medium and large screens and in order to indic
 I validated my HTML at various stages of the website creation using the [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML"). The various attempts for both the [Home Page](#home-page "Home Page") and the [Contact Form](#contact "Contact Form") are detailed below.
 
 #### Home Page
-##### First Attempt
+##### First Attempt (Home)
 The primary issue that arose in the first attempt was the repetitive use of an ID, which was rectified by changing the “section-heading” ID to a class.
 
 ![First W3C HTML Validator Test Result](documentation/w3c-html-validator-attempt-1-with-issue-of-reusing-id.jpg)
 
-##### Second Attempt
+##### Second Attempt (Home)
 Only a single warning was obtained in the second attempt and the route image element was changed to a div from a section
 
 ![Second W3C HTML Validator Test Result](documentation/w3c-html-validator-attempt-2.jpg)
 
-##### Final Attempt
+##### Final Attempt (Home)
 No issues arose.
 
 ![Final W3C HTML Validator Test Result](documentation/w3c-html-validator-attempt-3.jpg)
 
 #### Contact Page
-##### First Attempt
+##### First Attempt (Contact)
 No issues arose.
 
 ![First W3C HTML Validator Test Result](documentation/w3c-html-validator-attempt-contact.jpg)
@@ -331,7 +331,7 @@ No issues arose.
 ### W3C CSS Validator 
 
 #### Home and Contact Page
-##### First Attempt
+##### First Attempt (CSS)
 No issues arose. 
 
 ![W3C CSS Validator Test Result](documentation/validated-w3c-css.jpg)
@@ -346,7 +346,7 @@ In order to verify the suitability of the webpage, Lighthouse, a tool found in C
 * Best Practices – Based on the best practices used in industry.
 * SEO - Search Engine Optimisation – If the website is optimised to be easily discoverable on a search engine.
 
-### First Attempt
+### First Attempt (Lighthouse)
 After the first attempt, poor values in Performance and SEO were obtained.
 
 ![Lighthouse First Attempt](documentation/first-lighthouse-attempt.jpg)
@@ -354,7 +354,7 @@ After the first attempt, poor values in Performance and SEO were obtained.
 * The low Performance value was mainly due to the large size of all the images. This was rectified by putting the images through [Tiny PNG]( https://tinypng.com/) until they were all less than 500MB.
 * The low SEO value was due to missing <meta> tags. This was rectified by adding them into the header.
 
-### Final Attempt
+### Final Attempt (Lighthouse)
 Making the revisions enabled me to obtain much better scores in the high mid to high 90s.
 
 ![Lighthouse Final Attempt](documentation/final-lighthouse-attempt.jpg)
