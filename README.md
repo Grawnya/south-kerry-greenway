@@ -57,7 +57,7 @@ The website's primary aim is to provide the user with information about the new 
         * [First Attempt](#first-attempt-lighthouse "First Attempt")
         * [Final Attempt](#final-attempt-lighthouse "Final Attempt")
     * [Responsiveness](#responsiveness "Responsiveness")
-    * [Web Aim Contast Checker](#web-aim-contast-checker "Web Aim Contast Checker")
+    * [Web Aim Contrast Checker](#web-aim-contrast-checker "Web Aim Contrast Checker")
     * [Browser Compatibility](#browser-compatibility "Browser Compatibility")
     * [Testing User Stories](#testing-user-stories "Testing User Stories")
 * [Bugs](#bugs "Bugs")
