@@ -59,6 +59,13 @@ The website's primary aim is to provide the user with information about the new 
     * [Web Aim Contast Checker](#web-aim-contast-checker "Web Aim Contast Checker")
     * [Browser Compatibility](#browser-compatibility "Browser Compatibility")
     * [Testing User Stories](#testing-user-stories "Testing User Stories")
+* [Bugs](#bugs "Bugs")
+    * [Resolved](#resolved "Resolved")
+        * [Contrast between the Navigation Bar Sections and the Hero Image](#contrast-between-the-navigation-bar-sections-and-the-hero-image "Contrast between the Navigation Bar Sections and the Hero Image")
+        * [Responsive Route Image](#responsive-route-image "Responsive Route Image")
+        * [Navigation Bar Spacing](#navigation-bar-spacing "Navigation Bar Spacing")
+        * [Section Disappearing Between Next Section](#section-disappearing-between-next-section "Section Disappearing Between Next Section")
+    * [Unresolved](#unresolved "Unresolved")
 
 # UX
 ## User Goals
@@ -308,7 +315,6 @@ No issues arose.
 
 ![Final W3C HTML Validator Test Result](documentation/w3c-html-validator-attempt-3.jpg)
 
-
 #### Contact Page
 ##### First Attempt
 
@@ -416,3 +422,60 @@ The responsiveness and the appearance remained relatively the same across the va
 
 6. As a user, I want to check out the social media pages from the South Kerry Greenway.
 	* Social media icons are located in the footer, which enable the user to open the social media pages in a separate tab upon clicking on the correct icon.
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+# Bugs
+
+## Resolved
+### Contrast between the Navigation Bar Sections and the Hero Image
+Problem: Difficulty seeing the contrast between the light yellow navigation bar headings and the light blue ocean of the hero image
+Cause: Low contrast colour ratio
+Resolution: Add a dark blue shadow around the navigation bar headings to make them more distinct from the hero image.
+
+Before:
+![Before Text Shadow](documentation/before-text-shadow.jpg)
+
+After:
+![After Text Shadow](documentation/after-text-shadow.jpg)
+
+### Responsive Route Image
+Problem: In order to improve the responsiveness of the website, the aim was to make the route image as readable as possible on all screens. Yet when placing the background image, it was difficult to set it to a particular height to ensure that the full image took up the width while maintaining its aspect ratio.
+Cause: Difficult to account for both small screens and large screens when creating a section where a background image must be fully responsive.
+Resolution: Set a padding-top attribute to 56.9% based on the formula in the first comment in this [Stack Overflow thread]( https://stackoverflow.com/questions/600743/how-to-get-div-height-to-auto-adjust-to-background-size)
+
+Before:
+![Before Adding Top Padding](documentation/before-auto-adjusting-route-height.jpg)
+
+After:
+![After Adding Top Padding](documentation/after-auto-adjusting-route-height.jpg)
+
+### Navigation Bar Spacing
+Problem: Whitespace between each heading in the navigation bar was apparent on a large screen.
+Cause: Whitespace from the stacking of the <li> tags in the <nav> element
+Resolution: Restack and indent the <li> tags to remove the whitespace. 
+
+Before:
+![Before Removing <li> Indent](documentation/before-removing-li-indent.jpg)
+
+After:
+![After Removing <li> Indent](documentation/after-removing-li-indent.jpg)
+
+### Section Disappearing Between Next Section
+Problem: The upper sections would disappear behind the section below, so content would disappear.
+Cause: The overflow is not clipped within the website. The content therefore can render outside the element's section.
+Resolution: Set the overflow to “hidden”.
+\
+&nbsp;
+
+## Unresolved
+None 
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
