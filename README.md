@@ -58,6 +58,7 @@ The website's primary aim is to provide the user with information about the new 
     * [Responsiveness](#responsiveness "Responsiveness")
     * [Web Aim Contast Checker](#web-aim-contast-checker "Web Aim Contast Checker")
     * [Browser Compatibility](#browser-compatibility "Browser Compatibility")
+    * [Testing User Stories](#testing-user-stories "Testing User Stories")
 
 # UX
 ## User Goals
@@ -397,3 +398,21 @@ The responsiveness and the appearance remained relatively the same across the va
 \
 &nbsp;
 
+## Testing User Stories 
+1. As a user, I want to easily navigate through the website.
+	* The design of the website in sections provides a logical route for the user to scroll downwards to find all relevant information, until they reach the contact form towards the bottom of the website.
+
+2. As a user, I want to know where the route is.
+	* On the landing page, there is an About section which gives details about the route and the various stops along it. The text mentions its location on the Iveragh Peninsula and is followed by a dedicated section with a responsive image of the route. The image includes labels to tell the user where the route is.
+
+3. As a user, I want to know where I can stop along the way on the cycle route.
+	* The route image labels all the stops, but the Locations section provides information about the towns along the route and allows the user to select the h3 heading, which redirects them to a website dedicated to that town.
+
+4. As a user, I want to know if any events are taking place along the route during the year.
+	* The events section provides basic information on upcoming events, with the location and date information.
+
+5. As a user, I want to be able to easily contact the people who are managing the South Kerry Greenway.
+	* A contact form towards the base of the website allows the user to contact the management of the website and to ask any questions they may have about the South Kerry Greenway.
+
+6. As a user, I want to check out the social media pages from the South Kerry Greenway.
+	* Social media icons are located in the footer, which enable the user to open the social media pages in a separate tab upon clicking on the correct icon.
