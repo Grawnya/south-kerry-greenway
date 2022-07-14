@@ -52,6 +52,9 @@ The website's primary aim is to provide the user with information about the new 
         * [W3C CSS Validator](#w3c-css-validator "W3C CSS Validator")
             * [Home and Contact Page](#home-and-contact-page "Home and Contact Page")
                 * [First Attempt](#first-attempt "First Attempt")
+    * [Lighthouse](#lighthouse "Lighthouse")
+        * [First Attempt](#first-attempt "First Attempt")
+        * [Final Attempt](#final-attempt "Final Attempt")
 
 # UX
 ## User Goals
@@ -319,5 +322,31 @@ No issues arose.
 No issues arose. 
 
 ![W3C CSS Validator Test Result](documentation/validated-w3c-css.jpg)
+\
+&nbsp;
+
+## Lighthouse 
+
+In order to verify the suitability of the webpage, Lighthouse, a tool found in Chrome Developer Tools was used to check a broad variety. This includes:
+
+* Performance – Based on how fast the website loads and contributes to the overall UX.
+* Accessibility – Based on how easy it is to use the website regardless if people might use a screen reader, etc.
+* Best Practices – Based on the best practices used in industry.
+* SEO - Search Engine Optimisation – If the website is optimised to be easily discoverable on a search engine.
+
+### First Attempt
+
+After the first attempt, poor values in Performance and SEO were obtained.
+
+![Lighthouse First Attempt](documentation/first-lighthouse-attempt.jpg)
+
+* The low Performance value was mainly due to the large size of all the images. This was rectified by putting the images through [Tiny PNG]( https://tinypng.com/) until they were all less than 500MB.
+* The low SEO value was due to missing <meta> tags. This was rectified by adding them into the header.
+
+### Final Attempt
+
+Making the revisions enabled me to obtain much better scores in the high mid to high 90s.
+
+![Lighthouse Final Attempt](documentation/final-lighthouse-attempt.jpg)
 \
 &nbsp;
