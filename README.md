@@ -14,6 +14,7 @@ The website's primary aim is to provide the user with information about the new 
 ![Responsive Display](documentation/display-images.jpg)
 
 # Table of Contents
+
 * [UX](#ux "UX")
     * [User Goals](#user-goals "User Goals")
     * [User Stories](#user-stories "User Stories")
@@ -66,8 +67,14 @@ The website's primary aim is to provide the user with information about the new 
         * [Navigation Bar Spacing](#navigation-bar-spacing "Navigation Bar Spacing")
         * [Section Disappearing Between Next Section](#section-disappearing-between-next-section "Section Disappearing Between Next Section")
     * [Unresolved](#unresolved "Unresolved")
+* [Deployment](#deployment "Deployment")
+* [Credits](#credits "Credits")
+    * [For Code Help and Advice](#for-code-help-and-advice "For Code Help and Advice")
+    * [For Content](#for-content "For Content")
+    * [For Code](#for-code "For Code")
 
 # UX
+
 ## User Goals
 * Easy to navigate around
 * Direct Content about the route
@@ -85,7 +92,6 @@ The website's primary aim is to provide the user with information about the new 
 
 
 ## User Requirements and Expectations
-
 ### Requirements
 * Easy to navigate on the different screen sizes – mobile, tablet and larger screens.
 * Add all required information in a clear and concise manner.
@@ -106,7 +112,6 @@ The website's primary aim is to provide the user with information about the new 
 &nbsp;
 
 ## Design Choices
-
 ### Font
 To deviate from the standard fonts, [Google Fonts](https://fonts.google.com/ "Google Fonts") was used to obtain a font style, which would attract people to the website. [Jost]( https://fonts.google.com/specimen/Jost?query=jost) fulfilled the criteria for both headings and main body text, as it was easily readable, had clean edges and complemented the informative nature of the website.
 
@@ -157,8 +162,8 @@ Basic wireframes can be found below:
 &nbsp;
 
 # Features
-## Existing Features
 
+## Existing Features
 ### Landing Page
 The landing page consists of an impressive and enticing image to lure the user in. The ocean view suggests that the area is a tourist attraction and used for either recreation or relaxing activities. The title at the top of the page highlights that the location hero image is part of a cycleway or greenway.
 
@@ -169,19 +174,19 @@ The sizing of the hero image section allows the user to peak into the “About�
 The larger screen sizes include room for the about section maintain the images aspect ratio so it is not stretched and the navigation bar remains in place.
 \
 &nbsp;
+
 ### Navigation Bar
 
 The navigation bar is designed to be responsive for the different screen sizes and adjusts the width that each section heading item takes up on the screen. Each item within the navigation bar links to a section on the website. In order to increase each items readability, a shadow of contrasting colour is applied around each word, as seen below in a large screen view:
 
-
 ![Navigation Bar](documentation/add-text-shadow.jpg)
-
 
 The navigation bar stretches across the screen to fill 100% of the width. No background colour was selected to make the design more seamless and integrated with the website.
 
 To also increase visibility and interactivity with the website, when the titles are hovered over, they automatically underline the heading.
 \
 &nbsp;
+
 ### About
 The About section provides a brief, yet informative description about the South Kerry Greenway. It gives the user a succinct synopsis about the stops and tourist attractions along the route, whetting the user’s appetite to read more about the South Kerry Greenway.
 
@@ -190,6 +195,7 @@ It is designed to be responsive with the screen size and therefore, occupies the
 ![About Section](documentation/about-mobile.jpg)
 \
 &nbsp;
+
 ### Route
 The Route section provides the user with a labelled aerial map of the South Kerry Greenway. Labels of key stops can be found on the image. This makes it easier for the user to determine information and locations of note on the route.
 
@@ -200,6 +206,7 @@ The image is also designed to be completely responsive for all screen sizes. Mob
 For large screens (992+ px), the image keeps its aspect ratio and instead remains at the centre of the screen with a dark blue background. 
 \
 &nbsp;
+
 ### Locations
 To provide the user with more information of key stops, the locations section follows the logical progression of thought below the Route section. It provides information on 3 stops – Glenbeigh, Gleensk Viaduct & Kells, as well as Cahersiveen.
 
@@ -242,7 +249,6 @@ If the user has successfully submitted the form, they are redirected to a specif
 
 
 ### Footer
-
 The footer consists of social media icons which link to their respective site i.e. Facebook and Instagram, as well as the LinkedIn page of the website’s developer and their GitHub repository. The footer also contains links to the other sections on the site, as can be seen in the image below
 
 ![Footer](documentation/footer-mobile.jpg)
@@ -252,7 +258,6 @@ The footer is made responsive for medium and large screens and in order to indic
 &nbsp;
 
 ## Features to be Implemented
-
 * A calendar section that allows the user to sync upcoming events to their own calendar.
 * Connect to Survey Monkey’s API to obtain the contact form details, allowing the page manager to respond directly.
 * Additional details about the stops along the route
@@ -291,33 +296,27 @@ The footer is made responsive for medium and large screens and in order to indic
 # Testing
 
 ## Code Validation 
-
 ### W3C HTML Validator
-
 I validated my HTML at various stages of the website creation using the [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML"). The various attempts for both the [Home Page](#home-page "Home Page") and the [Contact Form](#contact-form "Contact Form") are detailed below.
 
 #### Home Page
 ##### First Attempt
-
 The primary issue that arose in the first attempt was the repetitive use of an ID, which was rectified by changing the “section-heading” ID to a class.
 
 ![First W3C HTML Validator Test Result](documentation/w3c-html-validator-attempt-1-with-issue-of-reusing-id.jpg)
 
 ##### Second Attempt
-
 Only a single warning was obtained in the second attempt and the route image element was changed to a div from a section
 
 ![Second W3C HTML Validator Test Result](documentation/w3c-html-validator-attempt-2.jpg)
 
 ##### Final Attempt
-
 No issues arose.
 
 ![Final W3C HTML Validator Test Result](documentation/w3c-html-validator-attempt-3.jpg)
 
 #### Contact Page
 ##### First Attempt
-
 No issues arose.
 
 ![First W3C HTML Validator Test Result](documentation/w3c-html-validator-attempt-contact.jpg)
@@ -328,7 +327,6 @@ No issues arose.
 
 #### Home and Contact Page
 ##### First Attempt
-
 No issues arose. 
 
 ![W3C CSS Validator Test Result](documentation/validated-w3c-css.jpg)
@@ -336,7 +334,6 @@ No issues arose.
 &nbsp;
 
 ## Lighthouse 
-
 In order to verify the suitability of the webpage, Lighthouse, a tool found in Chrome Developer Tools was used to check a broad variety. This includes:
 
 * Performance – Based on how fast the website loads and contributes to the overall UX.
@@ -345,7 +342,6 @@ In order to verify the suitability of the webpage, Lighthouse, a tool found in C
 * SEO - Search Engine Optimisation – If the website is optimised to be easily discoverable on a search engine.
 
 ### First Attempt
-
 After the first attempt, poor values in Performance and SEO were obtained.
 
 ![Lighthouse First Attempt](documentation/first-lighthouse-attempt.jpg)
@@ -354,7 +350,6 @@ After the first attempt, poor values in Performance and SEO were obtained.
 * The low SEO value was due to missing <meta> tags. This was rectified by adding them into the header.
 
 ### Final Attempt
-
 Making the revisions enabled me to obtain much better scores in the high mid to high 90s.
 
 ![Lighthouse Final Attempt](documentation/final-lighthouse-attempt.jpg)
@@ -362,7 +357,6 @@ Making the revisions enabled me to obtain much better scores in the high mid to 
 &nbsp;
 
 ## Responsiveness 
-
 The responsiveness of the design was manually checked using the Chrome Developer Tools for various screens.
 
 This included:
@@ -383,7 +377,6 @@ No issues arose, due to the responsive design of the website with rem and % valu
 &nbsp;
 
 ## Web Aim Contrast Checker
-
 The [Web AIM](https://webaim.org/resources/contrastchecker/ "Web AIM") was used, as describe in the [Colours](#colours "Colours") section.
 
 The contrast check between the deep blue with the light yellow failed. A darker blue was selected to meet the contrast ratio criteria of 7+. The following colours were selected:
@@ -393,7 +386,6 @@ The contrast check between the deep blue with the light yellow failed. A darker 
 &nbsp;
 
 ## Browser Compatibility
-
 The website was tested on a variety of browsers to ensure that it was fully functional. 
 
 On desktop, Google Chrome, Mozilla Firefox and Microsoft Edge were utilised. 
@@ -479,3 +471,45 @@ None
 \
 &nbsp;
 
+# Deployment
+
+During the process of coding up the website, the code was deployed on GitHub to allow for continuous manual testing and code validation. The following steps were conducted to deploy the website on GitHub:
+
+1. Commit the code, go to the GitHub repository and select the settings tab in the navigation bar below the repository name.
+2. In the left hand side menu, navigate down to the “Code and Automation” section and select the “Pages” option.
+3. At the top of the page, there is a “Source” section, with a drop-down menu, prompting the user to select a branch. Select the “main” branch.
+4. Press the “Save” button.
+5. Wait a few minutes and the website should be deployed at the [link](https://grawnya.github.io/south-kerry-greenway/) above the “Source” section.
+6. Any changes committed after the website has been deployed will cause the website to be updated shortly after they are committed.
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+# Credits
+
+## For Code Help and Advice
+* [Harry Dhillon]( https://github.com/Harry-Leepz)
+* [Simen Daehlin](https://github.com/Eventyret)
+\
+&nbsp;
+
+## For Content 
+* [Kells Bay Hero Image]( https://commons.wikimedia.org/wiki/File:Kells_Bay,_Ring_of_Kerry_%28506511%29_%2827820822216%29.jpg)
+* [Glenbeigh Image](https://commons.wikimedia.org/wiki/File:Glenbeigh_rossbeigh_beach.jpg)
+* [Gleensk Viaduct Image](https://www.geograph.ie/photo/775773)
+* [Cahersiveen Image](https://www.flickr.com/photos/tarnpulli/36339442623)
+\
+&nbsp;
+
+## For Code
+* Inspiration for the [Events][#events “Events”] and [Footer](#footer “Footer”) section from the [Love Running Project]( https://github.com/Grawnya/love-running)
+* [Submit Button]( https://www.w3schools.com/css/css3_buttons.asp)
+* [Auto adjusting Route Image Height]( https://stackoverflow.com/questions/600743/how-to-get-div-height-to-auto-adjust-to-background-size)
+* [Text Shadow for the Navigation Bar Headings]( https://stackoverflow.com/questions/2570972/css-font-border)
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
