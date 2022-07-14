@@ -36,6 +36,7 @@ The website's primary aim is to provide the user with information about the new 
         * [Events](#events "Events")
         * [Contact](#contact "Contact")
         * [Footer](#footer "Footer")
+    * [Features to be Implemented](#features-to-be-implemented "Features to be Implemented")
 
 
 # UX
@@ -222,3 +223,16 @@ The footer is made responsive for medium and large screens and in order to indic
 \
 &nbsp;
 
+## Features to be Implemented
+
+* A calendar section that allows the user to sync upcoming events to their own calendar.
+* Connect to Survey Monkey’s API to obtain the contact form details, allowing the page manager to respond directly.
+* Additional details about the stops along the route
+* Details about a potential cycling club that cycles the route often or organises specific tours for tourists.
+* Set up a bike renting scheme for tourists.
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
