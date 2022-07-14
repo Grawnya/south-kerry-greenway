@@ -512,7 +512,7 @@ During the process of coding up the website, the code was deployed on GitHub to 
 &nbsp;
 
 ## For Code
-* Inspiration for the [Events][#events “Events”] and [Footer](#footer “Footer”) section from the [Love Running Project]( https://github.com/Grawnya/love-running)
+* Inspiration for the [Events](#events "Events") and [Footer](#footer "Footer") section from the [Love Running Project]( https://github.com/Grawnya/love-running)
 * [Submit Button]( https://www.w3schools.com/css/css3_buttons.asp)
 * [Auto adjusting Route Image Height]( https://stackoverflow.com/questions/600743/how-to-get-div-height-to-auto-adjust-to-background-size)
 * [Text Shadow for the Navigation Bar Headings]( https://stackoverflow.com/questions/2570972/css-font-border)
