@@ -105,6 +105,7 @@ The website's primary aim is to provide the user with information about the new 
 * I expect all links to work correctly.
 * I expect all location and social media links to open in a separate tab.
 
+
 \
 &nbsp;
 [Back to Top](#table-of-contents)
@@ -139,6 +140,7 @@ The website will be built for a small mobile screen of width 320px and then will
 | medium/tablet |    768px   |
 | large         |   992+px   |
 
+
 \
 &nbsp;
 [Back to Top](#table-of-contents)
@@ -154,6 +156,7 @@ Basic wireframes can be found below:
 ### [Large Screen Wireframe](documentation/large-screen.png "Large Screen Wireframe ")
 ### [Medium/Tablet Screen Wireframe]( documentation/medium-screen.png " Medium/Tablet Screen Wireframe ")
 ### [Mobile Wireframe]( documentation/small-mobile-screen.png "Mobile wireframe")
+
 
 \
 &nbsp;
@@ -264,6 +267,7 @@ The footer is made responsive for medium and large screens and in order to indic
 * Details about a potential cycling club that cycles the route often or organises specific tours for tourists.
 * Set up a bike renting scheme for tourists.
 
+
 \
 &nbsp;
 [Back to Top](#table-of-contents)
@@ -287,6 +291,7 @@ The footer is made responsive for medium and large screens and in order to indic
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
 * [Web AIM](https://webaim.org/resources/contrastchecker/ "Web AIM")
 * [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en "Lighthouse")
+
 \
 &nbsp;
 [Back to Top](#table-of-contents)
@@ -414,6 +419,7 @@ The responsiveness and the appearance remained relatively the same across the va
 
 6. As a user, I want to check out the social media pages from the South Kerry Greenway.
 	* Social media icons are located in the footer, which enable the user to open the social media pages in a separate tab upon clicking on the correct icon.
+
 \
 &nbsp;
 [Back to Top](#table-of-contents)
@@ -465,6 +471,7 @@ Resolution: Set the overflow to “hidden”.
 
 ## Unresolved
 None 
+
 \
 &nbsp;
 [Back to Top](#table-of-contents)
@@ -481,6 +488,7 @@ During the process of coding up the website, the code was deployed on GitHub to 
 4. Press the “Save” button.
 5. Wait a few minutes and the website should be deployed at the [link](https://grawnya.github.io/south-kerry-greenway/) above the “Source” section.
 6. Any changes committed after the website has been deployed will cause the website to be updated shortly after they are committed.
+
 \
 &nbsp;
 [Back to Top](#table-of-contents)
@@ -508,6 +516,7 @@ During the process of coding up the website, the code was deployed on GitHub to 
 * [Submit Button]( https://www.w3schools.com/css/css3_buttons.asp)
 * [Auto adjusting Route Image Height]( https://stackoverflow.com/questions/600743/how-to-get-div-height-to-auto-adjust-to-background-size)
 * [Text Shadow for the Navigation Bar Headings]( https://stackoverflow.com/questions/2570972/css-font-border)
+
 \
 &nbsp;
 [Back to Top](#table-of-contents)
