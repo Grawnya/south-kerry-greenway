@@ -56,6 +56,7 @@ The website's primary aim is to provide the user with information about the new 
         * [First Attempt](#first-attempt "First Attempt")
         * [Final Attempt](#final-attempt "Final Attempt")
     * [Responsiveness](#responsiveness "Responsiveness")
+    * [Web Aim Contast Checker](#web-aim-contast-checker "Web Aim Contast Checker")
 
 # UX
 ## User Goals
@@ -284,7 +285,7 @@ The footer is made responsive for medium and large screens and in order to indic
 
 ### W3C HTML Validator
 
-I validated my HTML at various stages of the website creation using the [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML"). The various attempts for both the [Home Page](#home-page “Home Page”) and the [Contact Form](#contact-form “Contact Form”) are detailed below.
+I validated my HTML at various stages of the website creation using the [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML"). The various attempts for both the [Home Page](#home-page "Home Page") and the [Contact Form](#contact-form "Contact Form") are detailed below.
 
 #### Home Page
 ##### First Attempt
@@ -370,5 +371,15 @@ I also opted to use the responsiveness option and checked the screens at the fol
 * 992px
 
 No issues arose, due to the responsive design of the website with rem and % values.
+\
+&nbsp;
+
+## Web Aim Contrast Checker
+
+The [Web AIM](https://webaim.org/resources/contrastchecker/ "Web AIM") was used, as describe in the [Colours](#colours "Colours") section.
+
+The contrast check between the deep blue with the light yellow failed. A darker blue was selected to meet the contrast ratio criteria of 7+. The following colours were selected:
+
+![Web Aim Contrast Result](documentation/web-aim-color-contrast-check.jpg)
 \
 &nbsp;
