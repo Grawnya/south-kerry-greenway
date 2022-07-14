@@ -55,6 +55,7 @@ The website's primary aim is to provide the user with information about the new 
     * [Lighthouse](#lighthouse "Lighthouse")
         * [First Attempt](#first-attempt "First Attempt")
         * [Final Attempt](#final-attempt "Final Attempt")
+    * [Responsiveness](#responsiveness "Responsiveness")
 
 # UX
 ## User Goals
@@ -348,5 +349,26 @@ After the first attempt, poor values in Performance and SEO were obtained.
 Making the revisions enabled me to obtain much better scores in the high mid to high 90s.
 
 ![Lighthouse Final Attempt](documentation/final-lighthouse-attempt.jpg)
+\
+&nbsp;
+
+## Responsiveness 
+
+The responsiveness of the design was manually checked using the Chrome Developer Tools for various screens.
+
+This included:
+* iPhone SE
+* Pixel 5
+* Samsung Galaxy S8, S20 Ultra
+* iPad Air and Mini
+* Galaxy Fold
+* Nest Hub and Hub Max
+
+I also opted to use the responsiveness option and checked the screens at the following width sizes:
+* 320px
+* 768px
+* 992px
+
+No issues arose, due to the responsive design of the website with rem and % values.
 \
 &nbsp;
