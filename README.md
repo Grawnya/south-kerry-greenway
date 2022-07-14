@@ -49,6 +49,9 @@ The website's primary aim is to provide the user with information about the new 
                 * [Final Attempt](#final-attempt "Final Attempt")
             * [Contact Page](#contact-page "Contact Page")
                 * [First Attempt](#first-attempt "First Attempt")
+        * [W3C CSS Validator](#w3c-css-validator "W3C CSS Validator")
+            * [Home and Contact Page](#home-and-contact-page "Home and Contact Page")
+                * [First Attempt](#first-attempt "First Attempt")
 
 # UX
 ## User Goals
@@ -305,3 +308,16 @@ No issues arose.
 No issues arose.
 
 ![First W3C HTML Validator Test Result](documentation/w3c-html-validator-attempt-contact.jpg)
+\
+&nbsp;
+
+### W3C CSS Validator 
+
+#### Home and Contact Page
+##### First Attempt
+
+No issues arose. 
+
+![W3C CSS Validator Test Result](documentation/validated-w3c-css.jpg)
+\
+&nbsp;
