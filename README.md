@@ -304,4 +304,4 @@ No issues arose.
 
 No issues arose.
 
-![First W3C HTML Validator Test Result](documentation/w3c-html-validator-attempt-3.jpg)
+![First W3C HTML Validator Test Result](documentation/w3c-html-validator-attempt-contact.jpg)
